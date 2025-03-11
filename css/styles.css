@@ -180,10 +180,6 @@ ul li {
 
 }
 
-.main-section-member {
-    background-color: #FFFFFF
-}
-
 a:hover {
     color: #404bbf;
 }
@@ -202,4 +198,8 @@ a:focus {
 
 .button :focus {
     background-color: #404BBF;
+}
+
+.photo-member {
+    background-color: #FFFFFF;
 }
