@@ -47,15 +47,13 @@ body {
     background: #2e2f42;
 }
 
-h1 {
+.heading-effective {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
     letter-spacing: 0.02em;
     color: #fff;
     text-align: center;
-
-
+    line-height: 1.07
 }
 
 .mail-info {
@@ -81,28 +79,28 @@ h1 {
     list-style: none;
 }
 
-.button-h1 {
+.button-effective {
     background: #4d5ae5;
     color: #fff;
     border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+
 }
 
 .address-menu {
     font-style: normal;
 }
 
-h2 {
-    text-align: center;
-}
-
 .main-section-member {
     background: #f4f4fd;
-}
-
-.main-section-member ul li {
-    background: #fff;
     list-style: none;
 }
+
 
 .team-member-title {
     text-align: center;
@@ -134,4 +132,50 @@ h2 {
 
 .main-section-portfolio ul li {
     list-style: none;
+}
+
+.heading-second {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+}
+
+.header-member {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
+}
+
+.team-member-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.header-portfolio {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.header-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
 }
