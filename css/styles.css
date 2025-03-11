@@ -191,3 +191,15 @@ a:hover {
 a:active {
     color: #404bbf;
 }
+
+a:focus {
+    color: #404bbf;
+}
+
+.button :hover {
+    background-color: #404BBF
+}
+
+.button :focus {
+    background-color: #404BBF;
+}
