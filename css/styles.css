@@ -15,6 +15,7 @@ a:hover,
 a:active,
 a:focus {
     color: #404bbf;
+
 }
 
 ul {
@@ -45,7 +46,7 @@ ul {
     justify-content: space-between;
     font-weight: 500;
     font-size: 16px;
-    color: #2e2f42;
+    color: #434455
 }
 
 /* Основний заголовок */
@@ -74,19 +75,17 @@ ul {
     background: #4d5ae5;
     color: #fff;
     border: none;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 
 .button-effective:hover,
 .button-effective:focus {
     background-color: #404BBF;
-}
-
-/* Секції */
-.section-member {
-    background: #f4f4fd;
 }
 
 /* Заголовки */
@@ -101,8 +100,17 @@ ul {
     color: #2e2f42;
 }
 
+.photo-member {
+    background-color: #FFFFFF;
+}
+
+.section-member {
+    background: #f4f4fd;
+}
+
 .header-member,
-.header-portfolio {
+.header-portfolio,
+.heading-second {
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -124,4 +132,8 @@ ul {
 .logo-studio-footer,
 .footer-menu p {
     color: #F4F4FD;
+}
+
+.address-menu {
+    font-style: normal;
 }
